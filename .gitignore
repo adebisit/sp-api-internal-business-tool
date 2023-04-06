@@ -1,0 +1,5 @@
+.DS_Store
+dump.rdb
+.env
+venv/
+__pycache__/

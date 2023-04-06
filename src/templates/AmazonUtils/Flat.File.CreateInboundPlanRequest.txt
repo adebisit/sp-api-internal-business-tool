@@ -1,0 +1,15 @@
+PlanName	{{ plan_name }}																			
+ShipToCountry	{{ ship_to }}																			
+AddressName	{{ address_name }}																			
+AddressFieldOne	{{ address_1 }}																			
+AddressFieldTwo	{{ address_2 }}																			
+AddressCity	{{ city }}																			
+AddressCountryCode	{{ country_code }}																			
+AddressStateOrRegion	{{ state_region }}																			
+AddressPostalCode	{{ postal_code }}																			
+AddressDistrict																				
+																				
+MerchantSKU	Quantity
+{% for item in items %}
+{{ item.seller_sku }}	{{ item.quantity }}
+{% endfor %}
