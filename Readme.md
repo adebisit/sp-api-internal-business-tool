@@ -71,7 +71,8 @@ Celery Beat:
 - Celery Workers
 <img src="/demo/celery-worker.png" alt="celery-worker.png">
 
-- Celery Beat (Cron) <i mg src="/demo/celery-beat.png" alt="celery-beat.png">
+- Celery Beat (Cron)
+<img src="/demo/celery-beat.png" alt="celery-beat.png">
 
 
 
