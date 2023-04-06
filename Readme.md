@@ -1,5 +1,5 @@
 # SP API INTERNAL BUSINESS TOOL
-This tool was developed while I worked with a privately held organization that was a group of Amazon Sellers. The application started in 2018 and evolved over the years from using Amazon MWS to using Amazon SP-API. The repository only contains the more later evolved code.
+This tool was developed while I worked with a privately held organization that was a group of Amazon Sellers. The application started in 2018 and evolved over the years from using Amazon MWS to using [Amazon Selling Partner (SP) API](https://developer-docs.amazon.com/sp-api/). The repository only contains the more later evolved code.
 
 The application can be integrated into other Amazon businesses to implement a logical solution that allows for communication to Amazon SP-API.
 
