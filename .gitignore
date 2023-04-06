@@ -3,3 +3,4 @@ dump.rdb
 .env
 venv/
 __pycache__/
+staticfiles/
