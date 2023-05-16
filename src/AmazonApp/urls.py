@@ -20,6 +20,8 @@ from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
 from django.http.response import HttpResponse
+from rest_framework.authtoken.views import obtain_auth_token
+
 
 
 def home_view(request):
@@ -27,6 +29,7 @@ def home_view(request):
 
 urlpatterns = [
     path('', home_view),
+    path('api/token/', obtain_auth_token, name='api_token_auth'),
     re_path(r'admin/', admin.site.urls),
     re_path('api/', include('api.urls', 'api'))
 ]
